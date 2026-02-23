@@ -34,7 +34,7 @@ yay -S micro-top-git
      ```
   2. Клонуйте репозиторій та зберіть код
      ``` bash
-     git clone [https://github.com/KotanUA/Micro-top.git](https://github.com/KotanUA/Micro-top.git)
+     git clone https://github.com/KotanUA/Micro-top.git
      cd Micro-top
      cargo build --release sudo cp target/release/micro-top /usr/local/bin/
      ```
@@ -74,7 +74,7 @@ If your distro is not listed, you can easily build the binary yourself:
   ```
   2. Clone and build:
      ``` bash
-     git clone [https://github.com/KotanUA/Micro-top.git](https://github.com/KotanUA/Micro-top.git)
+     git clone https://github.com/KotanUA/Micro-top.git
      cd Micro-top
      cargo build --release
      sudo cp target/release/micro-top /usr/local/bin/ 
